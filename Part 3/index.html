@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
+
+
+      <link rel="stylesheet" type="text/css" href="main.css">
+
+
         <title> To Do List</title>
     </head>
-<body>
+<body >
     <div class="toDoDiv">
         <p>
             <input type="text" id="inputToDO" class="textinput" placeholder="New to do ... " />
@@ -15,4 +20,12 @@
         </ul>
     
     </div>
+    <script>
+       
+        $("addBtn").click(function(){
+        var text=$("#inputToDO").val();
+    }
+    $("li").append(text)
+    </script>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
 </body>
